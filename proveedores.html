@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Proveedores</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/proveedores.css">
+    </head>
+    <body>
+        <header>
+            <h1>Proveedores</h1>
+        </header>
+        <p><em>el borde azul indica obligatorio</em></p>
+
+        <form id="formular" action="javascript:procesa()">
+           <label> Clave:
+               <input type="Text" name="clave"  size="16" placeholder="1 a 10 digitos" required > <!--etiqueta input es metodo de entrada-->
+     </label>
+     <br><output id="salidaClave"></output><br>
+     <label> Nombre:
+         <input type="Text" name="nombre"  size="16" placeholder="1 a 50 caracteres" required>
+     </label>
+     <br><output id="salidaNombre"></output><br>
+      <label> Telefono:
+          <input type="tel" name="telefono" size="16" placeholder="10 a 14 ditgitos" > <!--etiqueta input es metodo de entrada-->
+     </label>
+     <br><output id="salidaTelefono"></output><br>
+
+      <label accesskey="F">
+                    Fecha:
+                    <input name="fecha" type="date" autofocus required
+                           max="2021-01-24" min="2020-01-24">
+                </label>
+                <br><output id="salidaFecha"></output>
+                <br><br>
+
+            <input type="submit" value="Procesar" accesskey="P">
+
+            <input type="reset" value="Limpiar" accesskey="P">
+            <br> <br>
+
+        </form
+
+        <footer>
+            <br>
+            Copyright Irving
+        </footer>
+        <script src="JS/CtrlProvedores.js"></script>
+    </body>
