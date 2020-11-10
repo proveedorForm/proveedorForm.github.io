@@ -2,10 +2,7 @@ html {font-family: sans-serif; text-align: center}
 body {display: inline-block; text-align: left}
 label, legend {font-weight: bold}
 *:required, .obligatorio {border: thin solid blue}
-input[type=number], .numero {text-align: left}
-input[type=text], .numero {text-align: left}
-input[type=tel], .numero {text-align: left}
-input[type=date], .numero {text-align: left}
+input[type=number], .numero {text-align: right}
 dfn {font-weight: bold}
 /* output después de br o de fieldset, footer y em dentro de form llevan texto
  * pequeño. */
